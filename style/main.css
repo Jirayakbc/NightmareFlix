@@ -34,6 +34,7 @@ header nav a {
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 header nav a:hover{
