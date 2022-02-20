@@ -7,7 +7,7 @@
     header .logo {
         color: var(--vermelho);
         font-family: 'Arial Black', Times;
-        font-size: 25px;
+        font-size: 15px;
         margin-left: 5px;
     }
 
@@ -15,12 +15,15 @@
         margin-top: 5px;
         width: 150px;
         padding: 10px 0px;
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .container {
         margin-left: 10px;
-        max-width: 700px;
+        max-width: 500px;
+        padding-bottom: 8px;
+        justify-content:right ;
+
     }
 
     .filme-principal .container{
@@ -28,9 +31,9 @@
         margin-top: 10px;
     }
     .filme-principal .descricao{
-        margin-top: 10px;
+        margin-top: 5px;
         margin-bottom: 10px;
-        font-size: 15px;
+        font-size: 10px;
         margin-left: 2px;
     }
     
@@ -40,11 +43,39 @@
         font-family: 'Trebuchet MS', Arial, sans-serif;
     }
 
-    .carossel-filmes{
-        margin-top: 5px;
+   
+    .botao {
+        background-color: rgba(0,0,0,.50);
+        color: white;
+        border: none;
+    
+        padding: 5px 5px;
+        font-size: 8px;
+    
+        cursor: pointer;
+        transition: .4s ease all;
+        margin-bottom: 100px;
     }
 
+    .carossel-filmes{
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+      /* Modal Content */
+    .modal-content {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capa-amyt.jpg);
+    margin: auto;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #888;
+    width: 35%;
+    color: white;
+    font-size: 5px;
+  }
+
 }
+
 
 @media screen and (min-width:1000px){
     .descricao{

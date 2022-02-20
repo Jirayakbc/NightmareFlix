@@ -11,6 +11,7 @@
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/modal.css">
     <title>NIGHTMARE FLIX</title>
 </head>
 <body>
@@ -36,9 +37,24 @@
                 <button role="button" class="botao">
                     <i class="fas fa-play"></i>
                     ASSISTIR AGORA</button> 
-                <button role="button" class="botao">
+                <button role="button" class="botao" id="myBtn">
                     <i class="fas fa-info-circle"></i>
                     MAIS INFORMAÇÕES</button>
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+                        
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p> Data de lançamento: 15 de abril de 2005 (EUA)</p>
+                            <p> Diretor: Andrew Douglas</p>
+                            <p> Continuação: The Amityville Haunting</p>
+                            <p> Companhia(s) produtora(s): Dimension Films; Platinum Dunes; Radar Pictures; Metro-Goldwyn-Mayer</p>
+                            <p> Roteiro: Scott Kosar e Sandor Stern; Baseado no livro de Jay Anson</p>
+                            <p> Adaptação de: Terror em Amityville, The Amityville Horror</p>
+                        </div>
+                        
+                        </div>    
             </div>    
         </div>
     </main>
@@ -83,6 +99,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/modal.js"></script>
     
 </body>
 </html>
